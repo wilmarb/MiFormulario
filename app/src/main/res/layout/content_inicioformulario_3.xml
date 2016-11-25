@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="render3web.example.navacivity.inicioformulario_3"
+    tools:showIn="@layout/activity_inicioformulario_3">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIO"
+        android:id="@+id/bto4"
+        android:layout_above="@+id/textView13"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Satisfactorio"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:textColor="#0c09e2"
+        android:textSize="@dimen/abc_action_bar_stacked_max_height"
+        android:textIsSelectable="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto1"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#090808"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_alignRight="@+id/bto4"
+        android:layout_alignEnd="@+id/bto4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto2"
+        android:layout_below="@+id/texto1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:textColor="#090808"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_alignRight="@+id/texto1"
+        android:layout_alignEnd="@+id/texto1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto3"
+        android:textColor="#090808"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/texto2"
+        android:layout_alignEnd="@+id/texto2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto4"
+        android:layout_above="@+id/bto4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/bto4"
+        android:layout_alignEnd="@+id/bto4"
+        android:textColor="#090808"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRACIAS POR SU REGISTRO, LO ESTAREMOS CONTACTANDO PRONTO"
+        android:id="@+id/textView13"
+        android:layout_marginBottom="50dp"
+        android:textColor="#0c09e2"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto5"
+        android:layout_alignBaseline="@+id/texto4"
+        android:layout_alignBottom="@+id/texto4"
+        android:layout_toRightOf="@+id/texto4"
+        android:layout_alignRight="@+id/textView13"
+        android:layout_alignEnd="@+id/textView13"
+        android:textColor="#090808"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+</RelativeLayout>
